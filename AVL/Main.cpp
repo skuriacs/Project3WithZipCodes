@@ -9,6 +9,7 @@ int main() {
 	vector<Node*> nodes;
 	ifstream file;
 	AVL AVLtree;
+	cout << "Parsing through CSV..." << "\n";
 	readData(file,nodes);
 	cout <<"Found " << nodes.size() << " zipcodes!\n\n";
 	std::chrono::time_point<std::chrono::system_clock> start_time, end_time;
@@ -61,7 +62,7 @@ int main() {
 	}
 	end_time = std::chrono::system_clock::now();
 	elapsed_seconds = end_time - start_time;
-	std::cout << "Elapsed time to sort and display the desired number of zipcodes for the Red Black Tree is: " << elapsed_seconds.count() << "s" << endl;
+	std::cout << "Elapsed time to sort and display the desired number of zipcodes for the Red Black Tree is: " << elapsed_seconds.count() << "s\n" << endl;
 
 
 	start_time = std::chrono::system_clock::now();
