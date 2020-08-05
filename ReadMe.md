@@ -5,7 +5,7 @@ A C++ CMD Application to show the performance difference between AVL and Red Bla
 ## Usage
 Just follow the instructions on the Command Prompt to show you the most/least populous zip codes in the United States in 2010. 
 Make sure to have the CSV file in the same directory as the compiled exectuable.
-CSV file can be found [here](https://www.kaggle.com/census/us-population-by-zip-code/data?select=population_by_zip_2010.csv)
+CSV file can be found [here](https://www.kaggle.com/census/us-population-by-zip-code/data?select=population_by_zip_2010.csv) or in the Repo above
 
 ## Contributors
 Samuel Kuriakose 
